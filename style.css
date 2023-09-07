@@ -1,0 +1,176 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 5px 0px rgba(77, 74, 74, 0.66);
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(77, 74, 74, 0.66);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(77, 74, 74, 0.66);
+    gap: 2rem;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nos-logo{
+    width: 5rem;
+    height: 2rem;
+   margin-left: 5rem;
+}
+
+.header-tabs{
+   font-size: 1.25rem;
+   color: grey;
+   font-weight: 400;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-icon{
+    width: 2rem;
+    height: 2rem;
+}
+.dots{
+    margin-right: 5rem;
+}
+
+.nieuws{
+color: red;
+
+}
+
+.sport:hover{
+color: red;
+
+
+}
+
+.live:hover{
+color: red;
+
+}
+.progamma:hover{
+    color: red;
+
+}
+
+.header-tabs:hover{
+    cursor: pointer;
+
+}
+
+body{
+    
+}
+
+
+.content-first{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    gap: 3rem;
+}
+
+.img-first{
+    width: 35rem;
+    height: 25rem;
+    display: flex;
+    border-radius: 0.2rem;
+    
+
+}
+
+.content-2{
+    margin-top: 3rem;
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+
+}
+
+.content2-img{
+    width: 15rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+}
+
+.sidecard{
+    width: 19rem;
+    height: 10rem;
+    box-shadow: 0px 0px 5px 5px rgba(67, 66, 66, 0.10);
+-webkit-box-shadow: 0px 0px 5px 5px rgba(67, 66, 66, 0.10);
+-moz-box-shadow: 0px 0px 5px 5px rgba(67, 66, 66, 0.10);
+    border-radius: 0.3rem;
+    padding: 2rem;
+
+}
+
+.card{
+    max-width: 15rem;
+    
+    
+}
+.content2-p{
+    width: 15rem;
+}
+
+.fat{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.fat:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.sidetitel{
+    color: red;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.time{
+    border: red solid 0.3rem;
+    width: 3.5rem;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    max-height: 2.2rem;
+}
+
+.sidetext-container{
+    display: flex;
+
+}
+
+.meerinfo{
+    color: red;
+    
+}
+.meerinfo:hover{
+    text-decoration: underline;
+}
+
+.sidetext:hover{
+    color: red;
+}
